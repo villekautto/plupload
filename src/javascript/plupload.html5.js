@@ -297,7 +297,7 @@
 
 
 				// Insert the input inside the input container
-				inputContainer.innerHTML = '<input id="' + uploader.id + '_html5" ' + ' style="font-size:999px"' +
+				inputContainer.innerHTML = '<input id="' + uploader.id + '_html5" ' + /*' style="font-size:999px"' + */
 											' type="file" accept="' + mimes.join(',') + '" ' +
 											(uploader.settings.multi_selection && uploader.features.multi_selection ? 'multiple="multiple"' : '') + ' />';
 
